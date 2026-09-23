@@ -16,15 +16,16 @@
     {
       "role": "updaterArchive",
       "filename": "ProVita ERP Pilot.app.tar.gz",
-      "bytes": 4326536,
-      "sha256": "6319ca6ff9df5726acf7969337f1e7cc007531ab8906a054559f652b595099d0",
-      "url": "https://provita-updates.noctive.de/0.1.3/aarch64/ProVita%20ERP%20Pilot.app.tar.gz"
+      "bytes": 4326509,
+      "sha256": "2e9130afdd7db076a1e88ac535bab5b42034810f31470fbfaa8a66d2ef402129",
+      "url": "https://provita-updates.noctive.de/repack-2e9130af/0.1.3/aarch64/ProVita%20ERP%20Pilot.app.tar.gz"
     },
     {
       "role": "updaterSignature",
       "filename": "ProVita ERP Pilot.app.tar.gz.sig",
       "bytes": 420,
-      "sha256": "5664add64c3cd256bbec1dbd312d8462c2fbbe11b5e2d234f7a9129da85b2719"
+      "sha256": "a9477814801e3a665c10a7af5b22256ebd6b58cda4ce51956664c81c5733f74b",
+      "url": "https://provita-updates.noctive.de/repack-2e9130af/0.1.3/aarch64/ProVita%20ERP%20Pilot.app.tar.gz.sig"
     }
   ]
 }
