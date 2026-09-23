@@ -2,11 +2,11 @@
 
 Für Macs mit Apple-Chip (M1 oder neuer) und macOS 14 oder neuer. Dies ist der ProVita-Pilot, noch kein vollständiger Ersatz aller HERO-Funktionen.
 
-**Lieferhinweis 24.09.2026:** Nach einem fehlgeschlagenen Aktualisierungstest wurde das Updatearchiv korrigiert und neu signiert; die App und DMG selbst sind unverändert. Der Feed verweist ausschließlich auf das neue Archiv unter `repack-2e9130af`. Der echte erneute Test 0.1.2 → 0.1.3 läuft noch. Bis zum Ergebnis keine Kundeninstallation oder Aktualisierung durchführen. Das historische Archiv unter `/0.1.3/aarch64/` nicht verwenden.
+**Geprüfter Stand 24.09.2026:** Der echte Update-Test 0.1.2 → 0.1.3 ist auf unserem Mac bestanden: Download, Signaturprüfung, Installation, automatischer Neustart, erneute Anmeldung, Kontaktliste und Kontakt-Detail. Die App zeigt Version 0.1.3 und „Alles aktuell“. Das korrigierte Updatearchiv liegt ausschließlich unter `repack-2e9130af`; App und DMG sind unverändert. Das historische Archiv unter `/0.1.3/aarch64/` nicht verwenden. Installation auf Michas eigenem Mac ist noch nicht geprüft.
 
 ## Einmal installieren
 
-1. Nach Ramzis Lieferfreigabe die [Mac-Programmdatei herunterladen](https://provita-updates.noctive.de/ProVita%20ERP%20Pilot_0.1.3_aarch64.dmg).
+1. Für den vereinbarten Test die [Mac-Programmdatei herunterladen](https://provita-updates.noctive.de/ProVita%20ERP%20Pilot_0.1.3_aarch64.dmg).
 2. Die heruntergeladene DMG öffnen und **ProVita ERP Pilot** in **Programme** ziehen.
 3. Die App aus **Programme** starten. Zugangsdaten erhältst du getrennt von Ramzi; für die Anmeldung wird eine Internetverbindung benötigt.
 
@@ -16,7 +16,13 @@ Eine vorhandene ProVita-Installation nicht löschen oder ungeprüft ersetzen. We
 
 Im Programm **„Nach Aktualisierung suchen“** wählen. Bei einer angebotenen Version folgen **„Herunterladen“**, **„Jetzt installieren“** und **„Jetzt neu starten“**. Vor der Installation laufende Arbeit abschließen. Die App prüft und installiert nicht ungefragt im Hintergrund.
 
-Der Aktualisierungskanal ist für den erneuten Abnahmetest eingerichtet. Die obigen Schritte beschreiben den vorgesehenen Ablauf, noch keinen für Kunden abgenommenen Updateweg.
+Der beschriebene Weg wurde mit 0.1.2 → 0.1.3 tatsächlich geprüft. Wer 0.1.3 neu installiert, sieht zunächst „Alles aktuell“. Nach einem Neustart ist eine erneute Anmeldung erforderlich. Spätere Versionen müssen jeweils gebaut, geprüft, signiert und veröffentlicht werden; bloße Codeänderungen erscheinen nicht automatisch beim Empfänger.
+
+## Testumfang und Erreichbarkeit
+
+Diese Fassung enthält Anmeldung, lesende Bestandsansichten mit synthetischen Testdaten und den Aktualisierungsweg. Anlegen, Ändern, Buchen und Planen sind nicht enthalten; ebenso wenig die übrigen noch nicht verfügbaren Fachmodule. Keine echten Kundendaten eingeben. Es ist kein vollständiger HERO-Ersatz und keine Freigabe für den Kundenbetrieb.
+
+Der derzeitige Testserver läuft bis **25.09.2026, 00:01 Uhr Deutschland / 02:01 Uhr Dubai**. Ohne gesonderte Verlängerung sind danach Anmeldung und Datenansichten nicht erreichbar. Die installierte App und der statische Download-/Updatekanal bleiben bestehen. Die Zugangsdaten werden separat und nicht öffentlich übergeben.
 
 ## Falls etwas nicht klappt
 

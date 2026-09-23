@@ -1,6 +1,6 @@
 # ProVita pilot downloads
 
-UPDATE RETEST IN PROGRESS (2026-09-24): the first 0.1.2-to-0.1.3 update failed at restart because the archive extracted an extra AppleDouble file. The feed now points to a newly signed, corrected archive under repack-2e9130af. The signed application and DMG are unchanged. Do not use the historical archive at /0.1.3/aarch64/. Customer operation and the real update path are not yet approved; the repeat installation/restart test is still pending.
+LOCAL UPDATE RETEST PASSED (2026-09-24): the real 0.1.2-to-0.1.3 update installed and automatically restarted. Re-login, synthetic contact list/detail and the visible 0.1.3 / current-version check succeeded. The feed points to the newly signed corrected archive under repack-2e9130af. The signed application and DMG are unchanged. Do not use the historical archive at /0.1.3/aarch64/. Installation on the recipient's own Mac remains untested. This is a limited synthetic-data preview, not approval for production use.
 
 This repository contains signed ProVita pilot installers, update archives and
 public update metadata only. ERP source code, credentials, internal evidence,
@@ -12,5 +12,6 @@ and BYTE-PINS.json for installation guidance and exact checksums.
 
 An available download is not by itself approval for production use or processing
 real customer data. This is the existing pilot feature set, not the complete ERP.
-The real 0.1.2-to-0.1.3 update acceptance is recorded separately, not assumed from
-the presence of these files. Updates are explicitly initiated in the application.
+The real local 0.1.2-to-0.1.3 update was observed, not inferred from the presence
+of these files. Updates are explicitly initiated in the application. The current
+test API is scheduled to stop at 2026-09-24 22:01:34 UTC unless separately extended.
