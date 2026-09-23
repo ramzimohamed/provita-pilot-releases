@@ -22,7 +22,7 @@ Der beschriebene Weg wurde mit 0.1.2 → 0.1.3 tatsächlich geprüft. Wer 0.1.3 
 
 Diese Fassung enthält Anmeldung, lesende Bestandsansichten mit synthetischen Testdaten und den Aktualisierungsweg. Anlegen, Ändern, Buchen und Planen sind nicht enthalten; ebenso wenig die übrigen noch nicht verfügbaren Fachmodule. Keine echten Kundendaten eingeben. Es ist kein vollständiger HERO-Ersatz und keine Freigabe für den Kundenbetrieb.
 
-Der derzeitige Testserver läuft bis **25.09.2026, 00:01 Uhr Deutschland / 02:01 Uhr Dubai**. Ohne gesonderte Verlängerung sind danach Anmeldung und Datenansichten nicht erreichbar. Die installierte App und der statische Download-/Updatekanal bleiben bestehen. Die Zugangsdaten werden separat und nicht öffentlich übergeben.
+Die getrennte ProVita-Testumgebung ist seit **24.09.2026 ohne feste Abschaltfrist** eingerichtet. Datenbank, API und Verbindung sind nach einem kontrollierten Neustart der ProVita-Umgebung selbstständig gestartet; der Datenabruf in der App wurde danach geprüft. Wartungen oder Störungen können die Erreichbarkeit weiterhin unterbrechen. Der Download-/Updatekanal bleibt unabhängig davon bestehen. Die Zugangsdaten werden separat und nicht öffentlich übergeben.
 
 ## Falls etwas nicht klappt
 

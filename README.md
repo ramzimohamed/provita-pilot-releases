@@ -13,5 +13,9 @@ and BYTE-PINS.json for installation guidance and exact checksums.
 An available download is not by itself approval for production use or processing
 real customer data. This is the existing pilot feature set, not the complete ERP.
 The real local 0.1.2-to-0.1.3 update was observed, not inferred from the presence
-of these files. Updates are explicitly initiated in the application. The current
-test API is scheduled to stop at 2026-09-24 22:01:34 UTC unless separately extended.
+of these files. Updates are explicitly initiated in the application. The separate
+synthetic test environment has no fixed shutdown deadline as of 2026-09-24.
+Database, API and tunnel autostart were verified after a controlled restart of
+the ProVita VM, followed by a successful in-app session and contact-detail check.
+Host boot autostart is configured; the shared host was not rebooted. This is not
+an uptime guarantee or approval for real customer data.
