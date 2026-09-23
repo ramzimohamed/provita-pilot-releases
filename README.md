@@ -1,5 +1,7 @@
 # ProVita pilot downloads
 
+UPDATE CHANNEL SUSPENDED (2026-09-24): the real 0.1.2-to-0.1.3 update failed at restart. The feed has been withdrawn. Do not update or replace an existing installation. A separate DMG installation worked with synthetic data; customer operation and the update path are not approved.
+
 This repository contains signed ProVita pilot installers, update archives and
 public update metadata only. ERP source code, credentials, internal evidence,
 backups and customer data are not published here.

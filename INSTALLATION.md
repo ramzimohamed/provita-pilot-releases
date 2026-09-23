@@ -2,6 +2,8 @@
 
 Für Macs mit Apple-Chip (M1 oder neuer) und macOS 14 oder neuer. Dies ist der ProVita-Pilot, noch kein vollständiger Ersatz aller HERO-Funktionen.
 
+**Lieferhinweis 24.09.2026:** Der reale Aktualisierungstest 0.1.2 → 0.1.3 ist beim Neustart fehlgeschlagen. Der Updatefeed wurde deshalb zurückgezogen. Keine Aktualisierung durchführen und eine vorhandene Installation nicht ersetzen. Die separat aus der DMG installierte 0.1.3 startete und zeigte synthetische Daten; dies ist keine vollständige Update- oder Kundenbetriebsfreigabe.
+
 ## Einmal installieren
 
 1. Nach Ramzis Lieferfreigabe die [Mac-Programmdatei herunterladen](https://provita-updates.noctive.de/ProVita%20ERP%20Pilot_0.1.3_aarch64.dmg).
@@ -14,7 +16,7 @@ Eine vorhandene ProVita-Installation nicht löschen oder ungeprüft ersetzen. We
 
 Im Programm **„Nach Aktualisierung suchen“** wählen. Bei einer angebotenen Version folgen **„Herunterladen“**, **„Jetzt installieren“** und **„Jetzt neu starten“**. Vor der Installation laufende Arbeit abschließen. Die App prüft und installiert nicht ungefragt im Hintergrund.
 
-Der Aktualisierungskanal wird erst nach erfolgreicher Veröffentlichungs- und Updateprüfung freigegeben. Diese Anleitung allein bestätigt weder die Erreichbarkeit des Downloadlinks noch einen bereits erfolgten Test auf deinem Mac.
+Der Aktualisierungskanal bleibt bis zur Reparatur und einem erfolgreichen erneuten Test gesperrt. Die obigen Schritte beschreiben den vorgesehenen Ablauf, nicht einen freigegebenen Updateweg.
 
 ## Falls etwas nicht klappt
 
