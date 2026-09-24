@@ -1,14 +1,82 @@
 <!doctype html>
-<html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ProVita · Downloads</title>
-<style>body{font:18px/1.6 system-ui,sans-serif;margin:10vh auto;padding:24px;max-width:680px;color:#193348;background:#f4f7f9}h1{line-height:1.2}small{color:#526575}</style>
-<h1>ProVita · Downloads</h1>
-<p><strong>ProVita ERP Pilot · Version 0.1.4</strong></p>
-<p><strong>Installierbare Testfassung:</strong> Der reale Aktualisierungstest von 0.1.3 auf 0.1.4 ist am 24.09.2026 auf unserem Mac bestanden — einschließlich Download, Signaturprüfung, Installation, Neustart, erneuter Anmeldung und Datenansicht. Die App zeigt Version 0.1.4. Die Installation auf dem Mac des Empfängers ist noch nicht geprüft.</p>
-<p><a href="/ProVita%20ERP%20Pilot_0.1.4_aarch64.dmg">Mac-App herunterladen</a> · <a href="/INSTALLATION.md">Installationshinweise</a> · <a href="/BYTE-PINS.json">Prüfsummen</a></p>
-<p>Die App ist signiert und notarisiert. Einmal installieren; spätere freigegebene Versionen können über „Aktualisierung“ im Programm geladen und installiert werden. Installation und Neustart werden bewusst bestätigt, nicht ungefragt ausgeführt.</p>
-<p><strong>UI-Änderungen in 0.1.4:</strong> Die sichtbare Überschrift „Noch nicht verfügbar“ entfällt, die Seitenleiste nutzt die verfügbare Höhe und die Abstände von Inhalt und Listen sind angepasst. Die bisher gesperrten Bereiche bleiben deaktiviert.</p>
-<p>Enthalten sind Anmeldung, lesende Bestandsansichten mit Testdaten und der Aktualisierungsweg. Anlegen, Ändern, Buchen und Planen sowie die übrigen Fachmodule sind in dieser Fassung nicht enthalten. Keine Freigabe für echte Kundendaten. Zugangsdaten erhältst du getrennt von Ramzi.</p>
-<p><small>Die getrennte ProVita-Testumgebung ist seit 24.09.2026 ohne feste Abschaltfrist eingerichtet. Automatischer Start ihrer Dienste und Datenabruf wurden nach einem kontrollierten Neustart geprüft. Wartungen oder Störungen bleiben möglich; der Download-/Updatekanal ist davon unabhängig.</small></p>
-<p><small>Für Macs mit Apple-Chip und macOS 14 oder neuer. Der vorhandene Funktionsstand ist noch kein vollständiger Ersatz aller HERO-Funktionen.</small></p>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#082d5b">
+  <meta name="description" content="ProVita ERP für deinen Mac herunterladen und in drei Schritten installieren.">
+  <title>ProVita ERP · Installation</title>
+  <link rel="icon" href="app-icon.svg" type="image/svg+xml">
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #14304b; background: #f0f3f6; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; min-height: 100svh; display: grid; place-items: center; padding: 40px 24px; -webkit-font-smoothing: antialiased; }
+    .page { width: min(100%, 960px); }
+    .card { display: grid; grid-template-columns: 1fr 1fr; overflow: hidden; border-radius: 28px; background: #fff; box-shadow: 0 24px 70px -30px #183c6440, 0 2px 8px #183c6408; border: 1px solid #e1e7ed; }
+    .download { padding: 44px 44px 40px; background: #082d5b; color: #fff; }
+    .brand { display: block; width: 230px; max-width: 100%; height: auto; }
+    .app-icon { display: block; width: 76px; height: 76px; margin: 54px 0 25px; border-radius: 18px; box-shadow: 0 0 0 1px #ffffff26, 0 10px 24px #001a3840; }
+    h1 { margin: 0; font-size: clamp(32px, 4.5vw, 42px); font-weight: 650; line-height: 1.12; letter-spacing: -.045em; }
+    .subtitle { margin: 12px 0 29px; font-size: 19px; line-height: 1.5; color: #d0dcea; }
+    .download-button { display: inline-flex; align-items: center; justify-content: center; gap: 11px; width: 100%; min-height: 56px; padding: 15px 20px; background: #fff; color: #082d5b; border-radius: 12px; text-decoration: none; font-size: 16px; line-height: 1.4; font-weight: 650; transition: transform 140ms cubic-bezier(.23,1,.32,1), background-color 140ms ease; }
+    .download-button svg { width: 21px; height: 21px; flex: none; }
+    .download-button:active { transform: scale(.98); }
+    .download-button:focus-visible { outline: 3px solid #80e0ec; outline-offset: 5px; }
+    .version { margin: 15px 0 0; color: #c4d3e5; font-size: 12px; line-height: 1.5; text-align: center; letter-spacing: .025em; }
+    .installation { padding: 47px 42px 40px; }
+    .eyebrow { margin: 0 0 14px; color: #58718a; font-size: 11px; font-weight: 700; line-height: 1.4; letter-spacing: .15em; text-transform: uppercase; }
+    h2 { margin: 0; font-size: 28px; line-height: 1.2; font-weight: 650; letter-spacing: -.035em; }
+    ol { list-style: none; padding: 0; margin: 36px 0 32px; }
+    li { display: grid; grid-template-columns: 34px 1fr; column-gap: 15px; align-items: start; }
+    li + li { margin-top: 28px; }
+    .number { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: #eef3f7; color: #365977; font-size: 13px; font-weight: 650; }
+    h3 { margin: 3px 0 6px; font-size: 16px; line-height: 1.35; font-weight: 650; }
+    li p { margin: 0; font-size: 14px; line-height: 1.65; color: #5b6f82; }
+    .requirements { border-top: 1px solid #e8edf2; padding-top: 20px; margin: 0; color: #5b6f82; font-size: 12px; line-height: 1.7; }
+    .requirements strong { color: #294762; font-weight: 600; }
+    footer { text-align: center; margin-top: 23px; color: #64798c; font-size: 12px; line-height: 1.6; }
+    @media (hover: hover) and (pointer: fine) { .download-button:hover { background: #eaf6fa; } }
+    @media (max-width: 700px) {
+      body { padding: 24px 16px; }
+      .page { max-width: 460px; }
+      .card { grid-template-columns: 1fr; border-radius: 22px; }
+      .download, .installation { padding: 30px 28px; }
+      .brand { width: 210px; }
+      .app-icon { width: 64px; height: 64px; margin: 32px 0 22px; border-radius: 15px; }
+      .subtitle { margin-bottom: 24px; }
+      h2 { font-size: 25px; }
+      ol { margin: 28px 0; }
+      li + li { margin-top: 22px; }
+    }
+    @media (prefers-reduced-motion: reduce) { .download-button { transition: none; } .download-button:active { transform: none; } }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <main class="card">
+      <section class="download" aria-labelledby="app-title">
+        <img class="brand" src="provita-logo.svg" width="462" height="65" alt="ProVita Treppenlifte">
+        <img class="app-icon" src="app-icon.svg" width="76" height="76" alt="">
+        <h1 id="app-title">ProVita ERP</h1>
+        <p class="subtitle">Direkt auf deinem Mac.</p>
+        <a class="download-button" href="ProVita-ERP-0.1.4.dmg" download="ProVita-ERP-0.1.4.dmg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"/></svg>
+          Für Mac herunterladen
+        </a>
+        <p class="version">Version 0.1.4 · Testversion · 4,9 MB</p>
+      </section>
+      <section class="installation" aria-labelledby="install-title">
+        <p class="eyebrow">Installation</p>
+        <h2 id="install-title">In drei Schritten startklar.</h2>
+        <ol>
+          <li><span class="number" aria-hidden="true">1</span><div><h3>Datei öffnen</h3><p>Lade die App herunter und öffne die DMG-Datei in deinen Downloads.</p></div></li>
+          <li><span class="number" aria-hidden="true">2</span><div><h3>In „Programme“ ziehen</h3><p>Ziehe die ProVita-App in den Ordner „Programme“.</p></div></li>
+          <li><span class="number" aria-hidden="true">3</span><div><h3>Öffnen &amp; anmelden</h3><p>Starte die App aus „Programme“ und melde dich mit deinen Zugangsdaten an.</p></div></li>
+        </ol>
+        <p class="requirements"><strong>Mac mit Apple-Chip</strong> · macOS 14 oder neuer<br>Internetverbindung zur Anmeldung erforderlich.</p>
+      </section>
+    </main>
+    <footer>Schon installiert? Neue Versionen findest du in der App unter „Aktualisierung“.</footer>
+  </div>
+</body>
 </html>
