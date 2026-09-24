@@ -1,9 +1,9 @@
 {
-  "version": "0.1.3",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://provita-updates.noctive.de/repack-2e9130af/0.1.3/aarch64/ProVita%20ERP%20Pilot.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSFhkOHNjZkVtVWo1OHlITGZ3ZStZY2Y4bkYxRFd4enRTZnVNV3Vid2k1MEdkQU5RcXZtZ0JnNCtHVzRqVlgwNlBlZDRqOWxkTVZtTWVqenJpMjgzYldGdllyaHZTa2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjA0ODI3CWZpbGU6UHJvVml0YSBFUlAgUGlsb3QuYXBwLnRhci5negoyN0NEZWhNSUc1ZGMrRHpGM1pySW91NEQvWHVUL1R0MGFnUFoyTUxXSnhuN2M0elZ2SzlZYnJqSWdrQWMrZk9VQjZ2WW5oY2dObHhoRVRyQ3ZkNkdBZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSFhkOHNjZkVtVWp1Z05RaTMraUFEVzIvdUQ0VVdEdGxMdHd6bVp5NUJDME9xVHBacVoxUjZBQm4zOHFubVcrQjVGVGEraDZrSXUzMW5YRDVNTTVjNWhxZEFzaFpJbXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjExMDExCWZpbGU6UHJvVml0YSBFUlAgUGlsb3QuYXBwLnRhci5negppbVFHSmlzdXRhb2g1R3pHdnJoRUtFSkpsbmM2eVZNUWxiU0YvMXYxOU5rbzl1UTNwZ3hQSGZ4Tmx5TStzbUdKc05hNTNDck8wM295S3E0ZHp5RGNCUT09Cg==",
+      "url": "https://provita-updates.noctive.de/0.1.4/aarch64/ProVita%20ERP%20Pilot.app.tar.gz"
     }
-  }
+  },
+  "version": "0.1.4"
 }

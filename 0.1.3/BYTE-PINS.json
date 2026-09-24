@@ -1,0 +1,31 @@
+{
+  "product": "ProVita ERP Pilot",
+  "version": "0.1.3",
+  "architecture": "aarch64",
+  "minimumMacOSVersion": "14.0",
+  "sourceSha": "52cb5dbc769fe8c599b210f76ab85ee4577584eb",
+  "metadataUrl": "https://provita-updates.noctive.de/metadata.json",
+  "files": [
+    {
+      "role": "installer",
+      "filename": "ProVita ERP Pilot_0.1.3_aarch64.dmg",
+      "bytes": 4878380,
+      "sha256": "7c9cf5cec8a058397572dfeee60ec35ab91a85690719fe7bee91f0d4b0d4265e",
+      "url": "https://provita-updates.noctive.de/ProVita%20ERP%20Pilot_0.1.3_aarch64.dmg"
+    },
+    {
+      "role": "updaterArchive",
+      "filename": "ProVita ERP Pilot.app.tar.gz",
+      "bytes": 4326509,
+      "sha256": "2e9130afdd7db076a1e88ac535bab5b42034810f31470fbfaa8a66d2ef402129",
+      "url": "https://provita-updates.noctive.de/repack-2e9130af/0.1.3/aarch64/ProVita%20ERP%20Pilot.app.tar.gz"
+    },
+    {
+      "role": "updaterSignature",
+      "filename": "ProVita ERP Pilot.app.tar.gz.sig",
+      "bytes": 420,
+      "sha256": "a9477814801e3a665c10a7af5b22256ebd6b58cda4ce51956664c81c5733f74b",
+      "url": "https://provita-updates.noctive.de/repack-2e9130af/0.1.3/aarch64/ProVita%20ERP%20Pilot.app.tar.gz.sig"
+    }
+  ]
+}
