@@ -1,31 +1,38 @@
 {
   "product": "ProVita ERP Pilot",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "architecture": "aarch64",
   "minimumMacOSVersion": "14.0",
-  "releaseKind": "UI maintenance of 0.1.3",
+  "releaseKind": "Integrated synthetic-data preview",
   "metadataUrl": "https://provita-updates.noctive.de/metadata.json",
   "files": [
     {
       "role": "installer",
-      "filename": "ProVita ERP Pilot_0.1.4_aarch64.dmg",
-      "bytes": 4878348,
-      "sha256": "34a42660909bedefcc6dd8a2ca25169f0d05c708165616ee9e2f2f5040f0f432",
-      "url": "https://provita-updates.noctive.de/ProVita%20ERP%20Pilot_0.1.4_aarch64.dmg"
+      "filename": "ProVita ERP Pilot_0.1.6_aarch64.dmg",
+      "bytes": 4929627,
+      "sha256": "5cc37f7f0fa6cfbd5c42023dceae047f196be7885c9f2e27203b19555f5c8b0d",
+      "url": "https://provita-updates.noctive.de/ProVita%20ERP%20Pilot_0.1.6_aarch64.dmg"
+    },
+    {
+      "role": "installerAlias",
+      "filename": "ProVita-ERP-0.1.6.dmg",
+      "bytes": 4929627,
+      "sha256": "5cc37f7f0fa6cfbd5c42023dceae047f196be7885c9f2e27203b19555f5c8b0d",
+      "url": "https://provita-updates.noctive.de/ProVita-ERP-0.1.6.dmg"
     },
     {
       "role": "updaterArchive",
       "filename": "ProVita ERP Pilot.app.tar.gz",
-      "bytes": 4326573,
-      "sha256": "05f8b9487cac9af4d6a6142070064c74fb77fc0630e70229647b7eacb484bb0e",
-      "url": "https://provita-updates.noctive.de/0.1.4/aarch64/ProVita%20ERP%20Pilot.app.tar.gz"
+      "bytes": 4373522,
+      "sha256": "40d9c6669ae87e01496bf12d6eb81e046a94a37eba1743bdf8a3817f1d343093",
+      "url": "https://provita-updates.noctive.de/0.1.6/aarch64/ProVita%20ERP%20Pilot.app.tar.gz"
     },
     {
       "role": "updaterSignature",
       "filename": "ProVita ERP Pilot.app.tar.gz.sig",
       "bytes": 420,
-      "sha256": "b76b00f00bee82ff8674d0d0b1dcc9ac87fad9eee81c9aeb64e323d8725688d2",
-      "url": "https://provita-updates.noctive.de/0.1.4/aarch64/ProVita%20ERP%20Pilot.app.tar.gz.sig"
+      "sha256": "48985d4977894310884944bc10b34e03c228180a2670e517392797e89573ff9a",
+      "url": "https://provita-updates.noctive.de/0.1.6/aarch64/ProVita%20ERP%20Pilot.app.tar.gz.sig"
     }
   ]
 }
